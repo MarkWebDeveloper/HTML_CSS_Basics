@@ -1,2 +1,21 @@
 @import url(reset_style.css);
 
+main {
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}
